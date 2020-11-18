@@ -48,5 +48,5 @@ with open(pkg['filename'], 'wb+') as f:
 if pkg['filename'].endswith('.whl'):
   unpack.unpack(pkg['filename'])
 elif pkg['filename'].endswith('.tar.gz'):
-  shutil.unpack_archive(pkg['filename'], 'gztar
+  shutil.unpack_archive(pkg['filename'], 'gztar'
   
